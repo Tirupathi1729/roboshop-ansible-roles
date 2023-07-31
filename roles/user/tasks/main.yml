@@ -1,0 +1,4 @@
+- name: Nodejs Setup
+  ansible.builtin.import_roles:
+    name: common
+    tasks_from: nodejs
