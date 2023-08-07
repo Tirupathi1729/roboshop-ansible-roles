@@ -1,4 +1,4 @@
-- name: Install Mongodb Client
+- name: Install Mysql Client
   ansible.builtin.yum:
     name: mysql
     state: installed
